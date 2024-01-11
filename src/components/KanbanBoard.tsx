@@ -34,7 +34,7 @@ const KanbanBoard = () => {
       }, []);
 
   return (
-    <div className="m-auto flex min-h-screen w-full items-center overflow-x-auto overflow-y-hidden px-[40px] ">
+    <div className="m-auto flex h-[calc(100vh-80px)] w-full items-center overflow-x-auto overflow-y-hidden px-[40px] ">
         <DndContext sensors={sensors} onDragStart={onDragStart} onDragEnd={onDragEnd} onDragOver={onDragOver}>   
             <div className="m-auto flex gap-4">
                     <div className="flex gap-4">
